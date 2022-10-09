@@ -1,0 +1,111 @@
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive; 
+}
+
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: rgb(186, 60, 60);
+    }
+
+/* text attributes*/
+#header-bar {
+    text-align: right;
+    padding: 10px 0px 10px 0px;
+
+    }
+
+/* List items in navigation bar */
+.header-link {
+    list-style-type: none;
+    font-size: 20px;
+    display: inline;
+    padding: 10px 25px 0px 10px;
+    }
+
+a {
+    color: #ebbf83; 
+}
+/* When clicked (or clicked and held) 
+the color will be dark slate blue */
+a:active {
+    color: rgb(66, 60, 101);
+} 
+
+body {
+    background-color: #f1d7b2;
+} 
+
+h1,
+h2 {
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(66, 60, 101);
+    }
+#page-name {
+    padding: 100px 0px 10px 0px;
+}
+
+#form-name {
+    padding: 10px 0px 10px 0px;
+}
+
+#page-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 20%;
+    }
+
+form {
+    margin: auto;
+    width: 300px;
+    margin-top: 20px;
+    padding: 10px;
+    border: 5px solid rgb(66, 60, 101);
+    border-radius: 20px;
+}
+
+.form-input {
+    display: block;
+    margin: 10px 0px 10px 10px;
+    color: rgb(66, 60, 101);
+}
+
+
+#contact-form {
+    list-style-type: none;
+    font-size: 25px;
+    padding: 25px;
+    }    
+
+.contact-info {
+    text-align: left;
+    padding-left: 40%;
+    color: rgb(66, 60, 101);
+    font-size: smaller;
+    }
+
+button {
+    height: 40px;
+    width: 120px;
+    margin: 10px 0px 10px 90px;
+    background-color: rgb(66, 60, 101);
+    color: #ebbf83;
+    font-weight:bolder;
+    margin-top: 10px;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    margin-top: 100px;
+    padding: 10px 0px 10px 0px;
+    background-color: rgb(186, 60, 60);
+    text-align: center;
+    color: #ebbf83;
+}
