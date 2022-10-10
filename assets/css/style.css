@@ -5,18 +5,11 @@
     font-family: cursive; 
 }
 
-
+/*Fix the navigation bar position to move as user scrolls*/
 nav {
     position: fixed;
     width: 100%;
     background-color: rgb(186, 60, 60);
-    }
-
-/* text attributes*/
-#header-bar {
-    text-align: right;
-    padding: 10px 0px 10px 0px;
-
     }
 
 /* List items in navigation bar */
@@ -27,33 +20,46 @@ nav {
     padding: 10px 25px 0px 10px;
     }
 
+/* Align navigation links*/
+#header-bar {
+    text-align: right;
+    padding: 10px 0px 10px 0px;
+    }
+
+/* Define text color for navigation links*/
 a {
     color: #ebbf83; 
 }
-/* When clicked (or clicked and held) 
+/* When links are clicked (or clicked and held) 
 the color will be dark slate blue */
 a:active {
     color: rgb(66, 60, 101);
 } 
 
+/*Add color to body background*/
 body {
     background-color: #f1d7b2;
 } 
 
+/* Determine generic header attributes */
 h1,
 h2 {
     text-align: center;
     font-weight: bolder;
     color: rgb(66, 60, 101);
     }
+
+/* Determine specific heading for header*/
 #page-name {
     padding: 100px 0px 10px 0px;
 }
 
+/* Determine specific heading for header*/
 #form-name {
     padding: 10px 0px 10px 0px;
 }
 
+/* Define dimension and placement for image*/
 #page-image {
     display: block;
     margin-left: auto;
@@ -61,6 +67,7 @@ h2 {
     max-width: 20%;
     }
 
+/* Define dimension and style of form*/
 form {
     margin: auto;
     width: 300px;
@@ -70,26 +77,14 @@ form {
     border-radius: 20px;
 }
 
+/* Define dimension and style for user input */
 .form-input {
     display: block;
-    margin: 10px 0px 10px 10px;
+    margin: 10px 0px 10px 40px;
     color: rgb(66, 60, 101);
 }
 
-
-#contact-form {
-    list-style-type: none;
-    font-size: 25px;
-    padding: 25px;
-    }    
-
-.contact-info {
-    text-align: left;
-    padding-left: 40%;
-    color: rgb(66, 60, 101);
-    font-size: smaller;
-    }
-
+/* Define style for button */
 button {
     height: 40px;
     width: 120px;
@@ -100,6 +95,7 @@ button {
     margin-top: 10px;
 }
 
+/* Define style for footer */
 footer {
     position: absolute;
     width: 100%;
